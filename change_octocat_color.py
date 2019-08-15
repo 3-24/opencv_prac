@@ -18,7 +18,7 @@ color_to_change = [100,100,100]
 
 for x in range (w):
     for y in range (h):
-        if np.all(img[y,x] == cat_color):
+        if np.array_equal(img[y,x] == cat_color):
             img[y,x] = color_to_change
 
 cv2.imshow('image',img)

@@ -27,7 +27,7 @@ plt.show()
 
 #### BASIC OPERATIONS ####
 print('height, width, channel:', img.shape)         # height,width,channel
-print('B,G,R at x=570, y=590:', img[570,590])       # bgr pixel values
+print('B,G,R at y=570, x=590:', img[570,590])       # bgr pixel values
 print('type', type(img[570,590]))
 print('only B at above:', img[570,590,0])           # blue only
 # print(img.item(570,590,0))
